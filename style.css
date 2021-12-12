@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, sans-serif;
+  }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #efe7eb;
+    padding-right: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+   
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+a.logo {
+    padding: 80px 80px; 
+}
+
+.div-one-container {
+    padding: 50px;
+    background-color: #1f2937;
+    color: #f9faf8; 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 175px;
+}
+
+/* hero image container */
+.hero-cta {
+    /* display: flex; */
+    /* justify-self: center; */
+    /* align-items: flex-end; */
+}
+
+/* Montana map*/
+.hero-image img {
+    height: 350px;
+    width: 500px;
+    border-radius: 0;
+    margin: 10px;
+
+}
+
+h1 {
+    font: 48px extra-bold #f9faf8;
+    margin: 0 0 0 0px;
+    padding-top: 20px;
+}
+
+/* top button */
+
+.top {
+ border: solid #3882f6;
+ color: #f9faf8;
+ background-color: #3882f6;
+ border-radius: 4px;
+ height: 30px;
+ width: 100px;
+}
+
+/* bottom button */
+.bottom {
+
+}
+
+/* Montana Landscapes heading */
+h2 {
+    font: 28px black bold;
+    font-family: Besley, sans-serif;
+    text-align: center;
+    align-items: flex-start;
+    height: 28px;
+    width: 100%;
+}
+
+/* div one container's text */
+.text {
+   height: 50px;
+   width: 200px;
+   word-wrap: break-word;
+}
+
+.div-two-container {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* boxes in div two container */
+
+.box {
+    /* display: flex; */
+    /* justify-content: space-around;  */
+    /* align-items: center; */
+    /* height: 200px; */
+    /* width: 200px; */
+    /* border: #3882f6 solid; */
+    /* border-radius: 20%; */
+    /* gap: 5px; */
+}
+
+
+.quote { 
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    margin: 25px 100px 25px 100px;
+    font-size: 32px;
+    font-family: "Special Elite";
+    text-align: center;
+    line-height: 150%;
+   
+}
+
+.div-four-container {
+    background: #f9faf8;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+/* inner block for div three */
+
+.inner-block {
+    height: 125px;
+    width: 1000px;
+    border: #3882f6 solid;
+    background: #3882f6;
+    border-radius: 4px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.inner-block.item-text  {
+    display: inline-block;
+}
+
+.inner-block h1,
+.inner-block p,
+.inner-block button {
+   color: #f9faf8; 
+    
+}
+
+button.bottom-button {
+    background-color: #3882f6;
+    border: #f9faf8 solid 1px;
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    bottom: 35px;
+    right: 100px;
+}
+
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+height: 75px;
+width: 100%;
+background-color: #1f2937;
+color: white;
+}
+
